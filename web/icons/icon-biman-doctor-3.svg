@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Teal/Mint Gradient -->
+  <defs>
+    <linearGradient id="bg3Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00B4D8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="whiteGlow">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+
+  <!-- Main Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bg3Gradient)"/>
+
+  <!-- Letter "B" with Medical Cross Integration -->
+  <g transform="translate(60, 60)">
+    <!-- Letter B body -->
+    <path d="M 15 10 L 15 90 M 15 10 L 45 10 Q 60 10, 60 30 Q 60 45, 50 50 Q 65 55, 65 70 Q 65 90, 45 90 L 15 90"
+          stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Weight Scale Icon (Modern Minimalist) -->
+  <g transform="translate(100, 130)">
+    <!-- Scale platform -->
+    <rect x="-25" y="0" width="50" height="6" fill="#FFFFFF" rx="3"/>
+    <!-- Scale base -->
+    <path d="M -15 6 L -10 15 L 10 15 L 15 6" fill="#FFFFFF"/>
+    <!-- Weight indicator -->
+    <circle cx="0" cy="-15" r="8" fill="#FFFFFF"/>
+    <path d="M -3 -15 L 0 -18 L 3 -15" fill="#00D4AA"/>
+  </g>
+
+  <!-- Medical Cross Badge -->
+  <g transform="translate(145, 75)">
+    <circle cx="0" cy="0" r="18" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="-2" y="-10" width="4" height="20" fill="#00D4AA" rx="1"/>
+    <rect x="-10" y="-2" width="20" height="4" fill="#00D4AA" rx="1"/>
+    <!-- Checkmark -->
+    <path d="M -5 0 L -2 3 L 5 -4" stroke="#00B4D8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0, 0)"/>
+  </g>
+</svg>
